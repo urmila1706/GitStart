@@ -1,1 +1,1 @@
-console.log('I study in sharp')
+console.log('I study git')
