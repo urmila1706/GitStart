@@ -1,1 +1,1 @@
-console.log('I study in sharpener')
+console.log('I study in sharp')
