@@ -1,1 +1,1 @@
-console.log('I study git')
+console.log('I study in sharpener')
