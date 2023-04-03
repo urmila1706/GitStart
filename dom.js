@@ -26,14 +26,17 @@
 // {
 //     items[i].style.fontWeight = 'bold';
 // }
-var li = document.getElementsByTagName('li');
-li[1].style.backgroundColor = 'yellow';
-li[1].textContent = 'Hello';
-li[1].style.fontWeight = 'bold';
+// var li = document.getElementsByTagName('li');
+//var item = document.querySelector('.list-group-item');
+//item.style.color = 'red';
+var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.backgroundColor = 'green';
+var thirdItem = document.querySelector('.list-group-item:nth-child(3)')
+thirdItem.textContent = '';
 
 
-for(var i=0;i<li.length;i++)
-{
-    li[i].style.fontWeight = 'bold';
-}
+// for(var i=0;i<li.length;i++)
+// {
+//     li[i].style.fontWeight = 'bold';
+// }
 
