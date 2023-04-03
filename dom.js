@@ -13,10 +13,16 @@
 // headerTitle.innerHTML = '<h3>Hello</h3>';
 //var header = document.getElementById('main-header');
 //header.style.borderBottom = 'solid 3px #000';
-var titles = document.querySelectorAll('.title');
-console.log(titles);
-//titles[0].textContent = 'hello';
-titles[0].style.fontWeight = 'bold';
-titles[0].style.color = 'green';
+// var titles = document.querySelectorAll('.title');
+// console.log(titles);
+// //titles[0].textContent = 'hello';
+// titles[0].style.fontWeight = 'bold';
+// titles[0].style.color = 'green';
 
+var items = document.getElementsByClassName('list-group-item');
+items[2].style.backgroundColor = 'green';
 
+for(var i=0;i<items.length;i++)
+{
+    items[i].style.fontWeight = 'bold';
+}
